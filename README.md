@@ -2,7 +2,7 @@
 
 Javascript é uma linguagem quase obrigatoria para o aprendizado, considerando que quase todo projeto, alguma hora terá que digitar alguma linha em javascrip. Estou desenvolvendo um projeto mobile para meu sistema da faculdade e optei em escrever em react native, porém me senti muito travado e muito isso por conta de não estar familiarizado com a linguagem de javascript. Portando estou comecando um novo estudo, para conhecimentos futuros e terminar o proejto da minha faculdade. Esse documento no github servirá como um armazenanemtno de tudo que aprender, para repassar esse conhecimento e até mesmo revisitalo em algum momento da minha carreira. 
 
-## Aula 1
+## Oq é 
 
 Basicamente o javascrip é uma linguagem feita para a web, o cliente. Nela é possivel colocar solucoes para incrementar elementos de CSS E HTML. Nos dias atuais essa realidade já não é bem assim, já que a linguagem atualmente consegue programar para o servidor (back-end) com a ajuda do node.js. 
 
