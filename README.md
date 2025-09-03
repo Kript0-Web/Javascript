@@ -21,3 +21,46 @@ Toda vez que criarmos um prompt (imput do usuario) ele sempre receberá por padr
 ## Manipulação de string
 
 Eu posso manipular a minha frase ou so nome da variavel para td minuscula ou maiuscula, tambem posso descobrir o tamanho dessa string e para isso faremos aasim. Para deixar em maiuscula usaremos o comando toUpperCase() entao ficaria tipo `seu nome é ${nome.toUpperCase()}`. Para minuscula é toLowerCase entao ficara `seu nome é ${nome.toLowerCase()}`. E para descobrir o tamanho será length entao ficará `seu nome é ${nome.length()}`. 
+
+## Operadores
+
+### Aritimétricos 
+
+Dentro desse conjunto de operadores existem 6 tipos, sendo eles: 
+  + -> Soma
+  - -> Subtração
+  * -> Multiplicação
+  / -> divisão
+  % -> resto da divisão
+  ** -> elevado
+
+Como na matematica existem uma ordem de precedencia:
+1. () Entre parenteses tem maior prioridade, entao td que estiver la dentro será feito primeiro
+2. ** Elevado
+3. * / %
+4. + -
+  
+## Auto_atribuições
+
+É o método de substiuir o valor de uma variavel por um novo valor. Ex: let num = 3 (esotu dizendo que num está recebendo o valor de 3)
+                                                                       num = num + 4 (3 + 4)
+                                                                       alert(num) agora vai exibir o resultado 7, pois o 3 foi substituido pelo soma dos dois numero                                                                        e agora passa a receber o novo valor da soma. 
+Simplicação é um método de encurtar variveis que serao usadas para a própria. Entao a nova versao seria num += 4. Ele está pegando a váriavel num e ja somando com 4, já que eu escreveria num = num + 4 eu só reduzi o tamanho da escrita. E isto serve para todas as operacoes, desde que use a propria variavel para fazer isso, entao num += x + 4 nao vai dar certo pq estou colocando outra variavel, so serve se receber a própria váriavel. 
+
+### Relacioanis
+
+Para os valores relacionais serao sempre do tipo booleano (verdadeiro ou falso), e dentre eles são:
+> -> maior
+< -> menor
+>= -> maior ou igual
+<= -> menor ou igual
+== -> igual
+!= -> diferente
+=== -> exatamente igual, tanto em valor como tipo de variavel, se eu tiver q 5 == "5" o javascript entende que sim eles são iguais, pois sao de mesma grandeza. Agora 5 === "5" é falso, ja que eles sao iguais em grandeza, mas nao em tipo de dados, um é numero outro é string. Para ser verdadeiro eles tem que ter o mesmo numero e mesmo tipo. Isso é conhecido como operador de identidade.
+
+ ### Operadores lógicos
+
+Para os valores relacionais serao sempre do tipo booleano (verdadeiro ou falso), e dentre eles são:
+! -> significa diferente
+&& -> segnifica que tem que ter duas afirmacoes para ser verdadeiro, ex: quero uma caneta azul e preta, obrigatoriamente tem que ser uma azul e uma preta, caso eu traga uma delas ou nenhuma delas entao sera falso. É como se fosse um crianca mimadam, nao adinta ganhar um ainda quer o outro.
+|| -> significa que apenas uma das afirmacoes tem que ser verdadeira. Ex: Quero uma caneta azul ou preta, qualquer uma delas que eu trouxer vai ta bom de mais, se trazer as duas melhor ainda, mas eu so exigi uma ou outra. 
